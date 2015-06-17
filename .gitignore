@@ -1,43 +1,38 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.meta
+*.TMP
 
-# Folder config file
-Desktop.ini
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# Windows shortcuts
-*.lnk
+# Executables
+*.exe
+*.out
+*.app
 
-# =========================
-# Operating System Files
-# =========================
+#Unity Files Project
+*.unityproj
 
-# OSX
-# =========================
+#Visual Studio
+*csproj
+*sln
+*suo
 
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+#Foulders
+Temp/
+bin/
+obj/
+Library/
